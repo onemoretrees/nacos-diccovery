@@ -23,7 +23,7 @@ public class ConsumerController {
      */
     @GetMapping("/service")
     public String service(){
-        //远程调用
+        //远程调用niaho
         String providerResult = providerClient.service();
 
         return "consumer invoke" + "|" + providerResult;
