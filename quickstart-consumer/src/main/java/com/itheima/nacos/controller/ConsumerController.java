@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConsumerController {
 
+    //dev branch
+
     //动态代理对象，内部远程调用服务生产者
     @Autowired
     ProviderClient providerClient;
